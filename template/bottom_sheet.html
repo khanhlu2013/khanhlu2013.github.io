@@ -1,0 +1,22 @@
+<md-bottom-sheet class="md-grid botom_sheet">
+  <md-list>
+    <md-item ng-repeat="item in lst">
+
+      <div layout="row" layout-align="center center">
+        <img flex="70" ng-src="{{item.img}}" height="100">
+        
+        <div flex="30" layout="column" layout-align="center start">
+          <md-button flex="50" class="md-raised md-warn" ng-click="play_pause_clicked(item)">
+            <span class="glyphicon glyphicon-play"></span>
+            <span class="glyphicon glyphicon-pause"></span>
+          </md-button>
+          <md-button flex="50" class="md-raised md-warn" ng-click="info_clicked(item)">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span class="glyphicon glyphicon"></span>
+          </md-button>     
+        </div>         
+      </div>
+
+    </md-item>
+  </md-list>
+</md-bottom-sheet>

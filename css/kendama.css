@@ -1,0 +1,11 @@
+body {
+    background-image: url("./../img/background_main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.botom_sheet {
+    background-image: url("./../img/background_botom_sheet.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}

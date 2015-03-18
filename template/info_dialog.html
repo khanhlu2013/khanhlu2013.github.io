@@ -1,0 +1,27 @@
+<md-dialog>
+    <md-content>
+        <div layout="column" layout-align="center center" layout-padding>
+            <div flex='10'>
+                <h2>{{item.label}}</h2>
+            </div>
+            <div flex='90'>
+                <div layout='row' layout-align="center center" layout-padding>
+                    <div flex="50">
+                        <img ng-src="{{item.img}}" height="400">
+                    </div>
+                    <div flex="50">
+                        <md-content>
+                            {{item.review}}
+                        </md-content>
+                    </div>                    
+                </div>
+            </div>
+        <div>
+    </md-content>
+
+    <div class="md-actions">
+        <md-button ng-click="exit()" class="md-primary">
+            Close
+        </md-button>
+    </div>  
+</md-dialog>

@@ -1,0 +1,5 @@
+i want to initially hide the video player
+when i click on a video to play, i want to show the player and play the vieo.
+
+
+when i click on one kendama item, if it is a different item, i need to reset. if it is not, then i just toogle
